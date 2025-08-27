@@ -43,11 +43,11 @@ inputs:
     # This describes the data files, relative to the "src_dir" indicated above.
     path_pattern: data/*-*.csv
   - class: InputSdmxMl_Structure
-   source: https://na.sdmx.afdb.org/ns-ws/rest/data/NA1,DF_SDG_TEST,1.0/A............../ALL/?detail=full&dimensionAtObservation=TIME_PERIODINSERT API URL FOR SDMX DATA
-   dsd: https://na.sdmx.afdb.org/ns-ws/rest/data/NA1,DF_SDG_TEST,1.0/A............../ALL/?detail=full&dimensionAtObservation=TIME_PERIOD
-   dimension_map:
+    source: https://na.sdmx.afdb.org/ns-ws/rest/data/NA1,DF_SDG_TEST,1.0/A............../ALL/?detail=full&dimensionAtObservation=TIME_PERIODINSERT API URL FOR SDMX DATA
+    dsd: https://na.sdmx.afdb.org/ns-ws/rest/data/NA1,DF_SDG_TEST,1.0/A............../ALL/?detail=full&dimensionAtObservation=TIME_PERIOD
+    dimension_map:
      REF_AREA|516: ''
-   drop_dimensions:
+    drop_dimensions:
      - FREQ
      - REPORTING_TYPE
      - NATURE
