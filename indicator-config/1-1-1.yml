@@ -36,7 +36,6 @@ placeholder: ''
 precision: []
 progress_calculation_options:
 - target: 7.25
-  target_year: 2030
 progress_status: ''
 proxy: ''
 proxy_series: []
